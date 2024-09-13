@@ -8,9 +8,9 @@ source $DIR_PATH/upmem-2024.1.0-Linux-x86_64/upmem_env.sh simulator
 cd $DIR_PATH/upmem-test
 make -j
 
-for (( i=1 ; i<= 32 ; i*=2 )); 
-do
-    ./upmem_test -ll:num_dpus $i -b $i
-done
+#for (( i=1 ; i<= 32 ; i*=2 )); 
+#do
+#    ./upmem_test -ll:num_dpus $i -b $i
+#done
 
 

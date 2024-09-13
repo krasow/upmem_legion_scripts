@@ -1,7 +1,7 @@
 # upmem support of legion
-git clone https://github.com/PrescienceLab/upmem-legion
+git clone --depth 1  https://github.com/PrescienceLab/upmem-legion
 # test cases
-git clone https://github.com/krasow/upmem-test
+git clone --depth 1  https://github.com/krasow/upmem-test
 # upmem runtime
 wget http://sdk-releases.upmem.com/2024.1.0/ubuntu_22.04/upmem-2024.1.0-Linux-x86_64.tar.gz
 tar -xf upmem-2024.1.0-Linux-x86_64.tar.gz
